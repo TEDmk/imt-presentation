@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>☁️ Working in the Cloud ☁️</h2>
+				<h4>3 years feedback</h4>
+			</section>
+			<section>
+				<h2>Teddy Turquet</h2>
+				<ul style="list-style: none">
+					<li>👨‍🎓 Class of 2019</li>
+					<li>💻 Lead DevOps at Société Générale</li>
+					<li>✉️ <a href="mailto:teddy.turquet@proton.me">teddy.turquet@proton.me</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>Why I'm here</h2>
+				<ol>
+					<li>Introduce some context about DevOps</li>
+					<li>Show you my work environment</li>
+					<li>Give you some tips</li>
+				</ol>
+
+			</section>
+			<section>
+				<section>
+					<h2>What is the Cloud?</h2>
+				</section>
+				<section>
+					<h4>Rise of the internet: More power!</h4>
+					<img data-src="images/internet.png" />
+				</section>
+				<section>
+					<h2>2002: Dedicated servers</h2>
+					<img data-src="images/ovh.png" />
+				</section>
+				<section>
+					<h2>2012: VPS</h2>
+					<img data-src="images/ovh2.png" />
+				</section>
+				<section>
+					<h2>2022: Cloud everywhere!</h2>
+					<img data-src="images/gcpmap.png" />
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>DEVOPS</h1>
+				</section>
+				<section>
+					<h1>DevOps role</h1>
+					<img data-src="images/devops.svg" />
+				</section>
+				<section>
+					<h1>Agile in DevOps</h1>
+					<img data-src="images/agile.png" />
+				</section>
+			</section>
+			<section>
+				<section>
+					<h2>
+						DevOps @ Société Générale
+					</h2>
+					<h3>
+						Building a private Cloud
+					</h3>
+				</section>
+				<section>
+					<h2>
+						Context of the Company
+					</h2>
+					<p>
+					<ul style="list-style: none">
+						<li>🧑🏻‍💼 140k employees</li>
+						<li>🧑🏻‍💻 8k Devs</li>
+						<li>🏢 3 IT departements: Retail, Market, Global</li>
+					</ul>
+					</p>
+				</section>
+				<section>
+					<h2>
+						Context of the project
+					</h2>
+					<p>
+					<ul style="list-style: none">
+						<li>🎯 Create a private Cloud</li>
+						<li>💰 >100M€ budget</li>
+						<li>🧑🏻‍💻 ~20 teams with ~250 devs</li>
+					</ul>
+					</p>
+				</section>
+				<section>
+					<h2>
+						Context of the service
+					</h2>
+					<p>
+					<ul style="list-style: none">
+						<li>🎯 create an PaaS for SG developer</li>
+						<li>🧑🏻‍💻 5 devs: Hugo (IMT2019), Omar (IMT2022), Hamouda (IMT2022), Sayafdine, me</li>
+					</ul>
+					</p>
+				</section>
+				<section>
+					<h2>
+						Understand what's a PaaS
+					</h2>
+					<img data-src="images/paas.jpg" />
+				</section>
+				<section data-background-color="white">
+					<img data-src="images/ccp.png" />
+				</section>
+				<section>
+					<h2>
+						Collaboration within the team
+					</h2>
+					<img data-src="images/gitflow.png" />
+				</section>
+				<section>
+					<h2>
+						Live demo! 😊
+					</h2>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>Pieces of advice</h1>
+				</section>
+				<section>
+					<h2>Useful resources</h2>
+					<ul style="list-style: none">
+						<li><img data-src="images/cncf.png" /></li>
+						<li><img data-src="images/hn.png" /></li>
+					</ul>
+				</section>
+				<section>
+					<h2>Practice on your free time</h2>
+					<ul>
+						<li>Frontend: VueJS, React, Angular</li>
+						<li>Backend: Python (FastAPI), Go (Gin), Rust (ActixWeb)</li>
+						<li>CI/CD: Github Action, Gitlab CI, Jenkins</li>
+						<li>Hosting: Docker, Kubernetes, Heroku</li>
+						<li>Database: Postgres, MariaDB, MongoDB</li>
+						<li>Monitoring: Grafana, Prometheus</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Interview preparation</h2>
+					<img data-src="images/itw.jpg" width="40%" />
+				</section>
+			</section>
+
+			<section>
+				<h1>Thank you!</h1>
+			</section>
+
+
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		Reveal.initialize({
+			controls: false,
+			hash: true,
+			slideNumber: true,
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>

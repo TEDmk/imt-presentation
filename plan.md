@@ -1,0 +1,57 @@
+- Introduction
+    - Who I am
+        - Teddy, 26yo, DevOps + Backend Engineer
+        - Work @ SG -> Building a Private Cloud
+    - Why I'm here
+        - Give you a bit of my experience + what I would have liked to know when I was at your place
+        - Introduce you the role of DevOps
+- DevOps <3
+    - What is the Cloud
+        - Internet is growing and need more and more compute
+            - Cloud gives flexibity to infrastructure
+        - Old time -> >1 day to get a server + pay the installation
+        - VM on demand -> few minuts
+            - It's good but if I need a database for instance -> I need to install it by myself
+        - Now: aaS everywhere!!
+            - AWS, Azure and GCP
+            - IaaS
+            - PaaS
+            - aPaaS
+            - SaaS
+        - Conclusion
+            - Good, now infrastructure is accessible by everyone but does a dev have competency to use the cloud
+    - DevOps
+        - Frontend, backend, fullstack, devops: Small reminder
+        - DevOps = Dev + Ops
+            - Old time -> work in isolation
+            - Dev in deploying there application
+                - CI/CD
+            - Note: Sometimes DevOps people consider DevOps is limited to Ops in the Cloud
+- Pieces of advice
+    - Useful resources
+        - CNCF: The bible of the Cloud
+        - Hackernews: Good source of information for IT news
+    - Practice on your free time
+        - When you look for you internship or first work. You must have a Github with some dev project on it
+            - Ask your friends or family for an idea they have. Take time to build a solution with tests, CI/CD, hosting and documentation
+            - If you want to start a project here is an example of a stack you could use
+                - Frontend
+                    - VueJS, React, Angular
+                - Backend
+                    - Python (FastAPI), Go (Gin), Rust (ActixWeb)
+                - CI/CD
+                    - Github Action, Gitlab CI, Jenkins
+                - Hosting
+                    - Docker, Kubernetes, Heroku
+                    - Database: Postgres, MariaDB, MongoDB
+                - Monitoring, Observability
+                    - Grafana, Prometheus
+    - Interview
+        - Preparation
+            - Read the "Crack the coding interview"
+            - Watch system design video on youtube
+        - During the interview
+            - Don't lie
+            - Interview is not just the company evaluating you but also you evaluation the position
+    - The market is contracted
+        - Keep in mind, you have the power
